@@ -150,6 +150,12 @@ button {
   font-size: 13px !important;
 }
 
+.content-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .p-container>p {
   font-weight: 400;
   width: 600px;
@@ -171,11 +177,18 @@ button {
   color: #326891;
 }
 
+.author{
+  margin: 0 auto;
+  width: 600px;
+  max-width: 600px;
+}
+
 .author,
 .article-body {
   /* change */
   margin-bottom: 20px;
   color: #121212;
+  
 }
 
 .article-section{
