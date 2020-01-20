@@ -144,7 +144,7 @@ body {
   font-size: 13px !important;
 }
 
-.author {
+.author, .article-body { /* change */
   width: 600px;
   max-width: 600px;
   margin: 0 auto;
@@ -152,13 +152,13 @@ body {
   color: #121212;
 }
 
-.author>p {
+.author>div>p {
   font-weight: 700;
   color: #333;
   letter-spacing: 0.02em;
 }
 
-a {
+.author>div>p>a {
   color: #333;
   text-decoration: none;
 }
@@ -170,7 +170,14 @@ a {
   margin: 0;
   flex-wrap: nowrap;
   list-style: none;
+  padding: 0;
 }
+
+/* font-size: 0.8125rem;
+    line-height: 1rem;
+    margin-bottom: 0;
+    margin-top: 0;
+} */
 
 .author-social-network>ul>li{
   color: #999;
@@ -178,4 +185,110 @@ a {
   margin-right: 16px;
   padding: 10px 0;
   width: 100%;
+}
+
+.social-network-icon {
+  background-color: #eee;
+  border: 1px #eee solid;
+  border-radius: 100%;
+  padding: 5px;
+  width: 15px;
+  height: 15px;
+}
+
+button {
+  cursor: pointer;
+  -webkit-appearance: button;
+  padding: 0;
+  margin: 0;
+  border: none;
+  line-height: normal;
+}
+
+.share-btn {
+  background: transparent;
+  display: inline-block;
+  background-color: #eee;
+  border: 1px #eee solid;
+  border-radius: 100%;
+  padding: 5px;
+  width: 27px;
+  height: 27px;
+}
+
+.save-btn {
+  background-color: rgb(255, 255, 255);
+}
+
+.comments-bubble-btn {
+  align-self: center;
+  background-color: transparent;
+  bottom: 0.05rem;
+  color: rgb(102, 102, 102);
+  cursor: pointer;
+  display: inline-flex;
+  flex-direction: column;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  height: 25px;
+  line-height: 1rem;
+  margin-left: 2px;
+  min-width: 24px;
+  position: relative;
+  text-transform: uppercase;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  overflow: visible;
+  padding: 0px 0px 4px;
+}
+
+.comments-icon {
+  -webkit-box-align: center;
+  align-items: center;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  min-width: 26px;
+  min-height: 14px;
+  position: relative;
+  width: auto;
+  background: transparent;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(102, 102, 102);
+  border-image: initial;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.comments-icon::before {
+  bottom: -7px;
+  content: "";
+  display: block;
+  left: 15px;
+  position: absolute;
+  width: 0px;
+  border-color: rgb(102, 102, 102) transparent;
+  border-style: solid;
+  border-width: 6px 0px 0px 8px;
+}
+
+.comments-icon::after {
+  bottom: -6px;
+  content: "";
+  display: block;
+  left: 16px;
+  position: absolute;
+  width: 0px;
+  border-color: rgb(255, 255, 255) transparent;
+  border-style: solid;
+  border-width: 6px 0px 0px 6px;
+}
+
+.p-container>p>a {
+  text-decoration: underline;
+  color: #326891;
 }
