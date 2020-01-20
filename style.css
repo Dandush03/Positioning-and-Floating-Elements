@@ -15,7 +15,7 @@ body {
   grid-template-columns: 33% 33% 33%;
   height: 53px;
   padding: 4px 15px 2px;
-  border-bottom: 1px solid #a03f3f
+  border-bottom: 1px solid #a03f3f;
 }
 
 .nav-buttons {
@@ -243,7 +243,7 @@ button {
   border-color: initial;
   border-image: initial;
   overflow: visible;
-  padding: 0px 0px 4px;
+  padding: 0 0 4px;
 }
 
 .comments-icon {
@@ -271,10 +271,10 @@ button {
   display: block;
   left: 15px;
   position: absolute;
-  width: 0px;
+  width:0;
   border-color: rgb(102, 102, 102) transparent;
   border-style: solid;
-  border-width: 6px 0px 0px 8px;
+  border-width: 6px 0 0 8px;
 }
 
 .comments-icon::after {
@@ -283,10 +283,10 @@ button {
   display: block;
   left: 16px;
   position: absolute;
-  width: 0px;
+  width: 0;
   border-color: rgb(255, 255, 255) transparent;
   border-style: solid;
-  border-width: 6px 0px 0px 6px;
+  border-width: 6px 0 0 6px;
 }
 
 .p-container>p>a {
