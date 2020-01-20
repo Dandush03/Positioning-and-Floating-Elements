@@ -143,3 +143,39 @@ body {
   color: #888 !important;
   font-size: 13px !important;
 }
+
+.author {
+  width: 600px;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  color: #121212;
+}
+
+.author>p {
+  font-weight: 700;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+.author>ul, .author-social-network>ul  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  flex-wrap: nowrap;
+  list-style: none;
+}
+
+.author-social-network>ul>li{
+  color: #999;
+  display: inline;
+  margin-right: 16px;
+  padding: 10px 0;
+  width: 100%;
+}
