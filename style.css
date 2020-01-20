@@ -82,3 +82,34 @@ body {
   text-transform: uppercase;
   padding: 11px 12px 8px 12px;
 }
+
+.top-section {
+  text-align: center;
+  margin: auto;
+  width: 1200px;
+}
+
+.img-title {
+  margin: 0 20px 1rem;
+  font-weight: 700;
+  font-style: italic;
+  color: #121212;
+  padding: 60px;
+}
+
+.img-title>span {
+  display: inline-block;
+}
+
+.img-div {
+  text-size-adjust: 100%;
+}
+
+.img-div>img {
+  width: 100%;
+}
+
+.img-desc>figcaption>span {
+  margin-right: 7px;
+  color: #666;
+}
