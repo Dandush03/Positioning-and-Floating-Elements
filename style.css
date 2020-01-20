@@ -350,3 +350,45 @@ button {
   border-bottom: 1px solid rgb(204, 204, 204);
   margin: 18px auto 18px;
 }
+
+.aside-section {
+  position: absolute;
+  right: 0;
+  top: 2000px;
+  width: 210px;
+}
+
+.aside-section h2 {
+  font-size: 14px;
+}
+
+.aside-section article {
+  display: block;
+}
+
+.aside-section div {
+  height: 78px;
+}
+
+.aside-section a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-direction: row;
+}
+
+.aside .picks-img-container {
+  display: block;
+  width: 75px;
+}
+
+.pick-img {
+    width: 75px;
+    max-width: 100%;
+    max-height: 100% !important;
+}
+
+.aside h3 {
+  width: calc(100% - 85px);
+  margin: auto 0px auto 10px;
+}
