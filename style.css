@@ -580,6 +580,7 @@ button {
 
 .article-item {
   width: 32%;
+  padding-bottom: 20px;
 }
 
 .article-img figure {
@@ -611,4 +612,12 @@ button {
   font-size: 1.125rem;
   line-height: 22px;
   font-weight: 500;
+  margin-top: 0;
+}
+
+.article-title time {
+  color: rgb(153, 153, 153);
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.3px;
 }
