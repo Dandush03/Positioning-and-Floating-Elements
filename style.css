@@ -84,6 +84,18 @@ button {
   text-decoration: none;
 }
 
+.btn-footer a {
+  margin: 0;
+  border: 0;
+  text-size-adjust: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  color: #666;
+  font-size: 11px;
+  padding: 10px auto;
+  text-decoration: none;
+}
+
 .nav-buttons>div>a {
   font-size: 14.25px;
   font-weight: 700;
@@ -353,6 +365,10 @@ button {
   text-decoration: underline;
 }
 
+.btn-footer a:hover {
+  text-decoration: underline;
+}
+
 .author>div>p>a:hover {
   text-decoration: none;
 }
@@ -375,6 +391,12 @@ button {
   margin-right: 16px;
   padding: 10px 0;
   float: left;
+}
+
+.btn-footer li {
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .author-social-network>ul>li {
@@ -784,26 +806,4 @@ button {
   margin: 0 auto;
   float: left;
   margin-bottom: 2rem;
-}
-
-.btn-footer li {
-  float: left;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.btn-footer a {
-  margin: 0;
-  border: 0;
-  text-size-adjust: 100%;
-  font: inherit;
-  vertical-align: baseline;
-  color: #666;
-  font-size: 11px;
-  padding: 10px auto;
-  text-decoration: none;
-}
-
-.btn-footer a:hover {
-  text-decoration: underline;
 }
