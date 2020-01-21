@@ -703,6 +703,12 @@ button {
   width: 150px;
 }
 
+.btn-footer ul {
+  margin: 0;
+  list-style-type: none;
+  color: #666;
+}
+
 .clmns-5>div>ul,
 .clmns-5>div>div>ul {
   list-style: none;
@@ -732,8 +738,8 @@ button {
   line-height: 16px;
 }
 
-.clmns-5>div>div>ul>li>a:hover,
-.clmns-5>div>ul>li>a:hover {
+.clmns-5>div>ul>li>a:hover,
+.clmns-5>div>div>ul>li>a:hover {
   text-decoration: underline;
 }
 
@@ -778,12 +784,6 @@ button {
   margin: 0 auto;
   float: left;
   margin-bottom: 2rem;
-}
-
-.btn-footer ul {
-  margin: 0;
-  list-style-type: none;
-  color: #666;
 }
 
 .btn-footer li {
