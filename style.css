@@ -689,18 +689,18 @@ button {
   padding-bottom: 15px;
 }
 
-.logo-svg a{
+.logo-svg a {
   color: #567b95;
-    font-family: nyt-franklin;
-    font-size: 11px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 11px;
-    -webkit-text-decoration: none;
-    text-decoration: none;
+  font-family: nyt-franklin;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 11px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
-.logo-svg a:hover{
+.logo-svg a:hover {
   text-decoration: underline;
 }
 
@@ -745,6 +745,10 @@ button {
   width: 170px;
 }
 
+.clmns-5>div>div>ul>li>a {
+  font-size: 14px;
+}
+
 .clmns-5>div>div>ul>li>a,
 .clmns-5>div>ul>li>a {
   color: #000;
@@ -754,7 +758,6 @@ button {
   text-decoration: none;
   text-transform: capitalize;
   width: 150px;
-  font-size: 14px;
   font-weight: 500;
   height: 23px;
   line-height: 16px;
@@ -782,4 +785,21 @@ button {
   padding-left: 1rem;
   margin-left: 2.4rem;
   height: 320px;
+}
+
+.smll-fnt {
+  color: #000;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 11px !important;
+  font-weight: 500;
+  line-height: 21px;
+}
+
+.space {
+  margin-top: 2px !important;
+  padding-top: 10px !important;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #e2e2e2;
 }
