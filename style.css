@@ -67,6 +67,23 @@ button {
   color: black;
 }
 
+.cosmos-most-populars a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.logo-svg a {
+  color: #567b95;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 11px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
 .nav-buttons>div>a {
   font-size: 14.25px;
   font-weight: 700;
@@ -624,12 +641,6 @@ button {
   border-bottom: 1px solid rgb(226, 226, 226);
 }
 
-.cosmos-most-populars a {
-  text-decoration: none;
-  color: black;
-  font-weight: 500;
-}
-
 .ftr-main-div {
   width: 1200px;
   margin: 0 auto;
@@ -656,17 +667,6 @@ button {
   float: left;
   padding-bottom: 15px;
   padding-top: 15px;
-}
-
-.logo-svg a {
-  color: #567b95;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  font-size: 11px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 11px;
-  -webkit-text-decoration: none;
-  text-decoration: none;
 }
 
 .logo-svg a:hover {
