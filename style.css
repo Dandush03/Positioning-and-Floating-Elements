@@ -24,6 +24,19 @@ button {
   line-height: normal;
 }
 
+.more-art p,
+.more-art a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-size-adjust: 100%;
+  font-style: inherit;
+  vertical-align: baseline;
+  color: #333;
+  font-size: 15px;
+  font-weight: 700;
+}
+
 .nav-buttons {
   align-items: center;
   width: 41%;
@@ -57,19 +70,6 @@ button {
 .nav-buttons>button>svg {
   width: 16px;
   height: 16px;
-}
-
-.more-art p,
-.more-art a {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  text-size-adjust: 100%;
-  font-style: inherit;
-  vertical-align: baseline;
-  color: #333;
-  font-size: 15px;
-  font-weight: 700;
 }
 
 .more-art a {
@@ -464,7 +464,7 @@ button {
   border: 0;
   font-size: 100%;
   text-size-adjust: 100%;
-  font: inherit;
+  font-style: inherit;
   vertical-align: baseline;
 }
 
@@ -503,7 +503,6 @@ button {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 17px;
   margin-bottom: 5px;
-  margin: 0;
   padding: 0;
   border: 0;
   text-size-adjust: 100%;
@@ -581,7 +580,7 @@ button {
 
 .img-caption {
   padding-bottom: 4px;
-  font-family: nyt-cheltenham-small, georgia, "times new roman";
+  font-family: nyt-cheltenham-small, georgia, "times new roman", times, serif;
   color: rgb(153, 153, 153);
   font-size: 0.625rem;
   margin-top: 3px;
