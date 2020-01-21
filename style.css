@@ -565,3 +565,50 @@ button {
   background-color: transparent;
   border: none;
 }
+
+.cosmos-gallery {
+  display: flex;
+  flex-direction: column;
+}
+
+.more-topics {
+  display: flex;
+  flex-wrap: wrap;
+  width: 852px;
+  justify-content: space-between;
+}
+
+.article-item {
+  width: 32%;
+}
+
+.article-img figure {
+  margin: 0;
+}
+
+.article-img a {
+  text-decoration: none;
+  text-align: right;
+}
+
+.article-img img {
+  width: 100%;
+}
+
+.img-caption {
+  padding-bottom: 4px;
+  font-family: nyt-cheltenham-small, georgia, "times new roman";
+  color: rgb(153, 153, 153);
+  font-size: 0.625rem;
+}
+
+.article-title a {
+  text-decoration: none;
+  color: black;
+}
+
+.article-title h3 {
+  font-size: 1.125rem;
+  line-height: 22px;
+  font-weight: 500;
+}
