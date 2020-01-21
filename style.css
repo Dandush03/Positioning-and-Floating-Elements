@@ -258,7 +258,7 @@ button {
   float: left;
 }
 
-.li-mrgn-added{
+.li-mrgn-added {
   margin: 15px 0;
   float: left;
 }
@@ -365,7 +365,7 @@ button {
   width: 210px;
 }
 
-@media(max-width: 1270px) {
+@media (max-width: 1270px) {
   .aside-section {
     display: none;
   }
@@ -632,7 +632,7 @@ button {
   font-weight: 500;
 }
 
-.ftr-main-div{
+.ftr-main-div {
   width: 1200px;
   margin: 0 auto;
 }
