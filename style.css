@@ -24,6 +24,25 @@ button {
   line-height: normal;
 }
 
+.frst-btm-art a {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  width: calc(100% - 40px);
+  max-width: 600px;
+  color: rgb(102, 102, 102);
+  margin: 0 auto 1em;
+}
+
+.frst-btm-art a:hover {
+  text-decoration: none;
+}
+
+.more-art a {
+  color: rgb(50, 104, 145) !important;
+  text-decoration: none;
+}
+
 .more-art p,
 .more-art a {
   margin: 0;
@@ -70,11 +89,6 @@ button {
 .nav-buttons>button>svg {
   width: 16px;
   height: 16px;
-}
-
-.more-art a {
-  color: rgb(50, 104, 145) !important;
-  text-decoration: none;
 }
 
 .aside-section a {
@@ -442,20 +456,6 @@ button {
   margin: 0 auto 1em;
 }
 
-.frst-btm-art a {
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  font-size: 0.75rem;
-  line-height: 1rem;
-  width: calc(100% - 40px);
-  max-width: 600px;
-  color: rgb(102, 102, 102);
-  margin: 0 auto 1em;
-}
-
-.frst-btm-art a:hover {
-  text-decoration: none;
-}
-
 .snd-btm-art {
   width: calc(100% - 40px);
   max-width: 600px;
@@ -506,7 +506,7 @@ button {
   padding: 0;
   border: 0;
   text-size-adjust: 100%;
-  font: inherit;
+  font-style: inherit;
   vertical-align: baseline;
 }
 
