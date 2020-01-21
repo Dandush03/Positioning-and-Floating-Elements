@@ -242,13 +242,20 @@ button {
   text-decoration: none;
 }
 
+.author-social-network {
+  float: right;
+}
+
 .author>ul,
 .author-social-network>ul {
-  display: flex;
+  /* display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: nowrap; */
+  float: right;
+  width: 100%;
   margin: 0;
-  flex-wrap: nowrap;
+
   list-style: none;
   padding: 0;
 }
@@ -261,9 +268,16 @@ button {
 
 .author-social-network>ul>li {
   color: #999;
-  display: inline;
+  /* display: inline; */
+  /* float: right; */
   margin-right: 16px;
   padding: 10px 0;
+  list-style: none;
+  float: left;
+}
+
+.author-social-network>ul:first-child {
+  float: left;
 }
 
 .social-network-icon {
@@ -656,18 +670,6 @@ button {
   color: black;
   font-weight: 500;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .ftr-nav {
   width: 1200px;
