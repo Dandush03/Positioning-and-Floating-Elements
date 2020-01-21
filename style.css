@@ -143,6 +143,10 @@ button {
   border: none;
 }
 
+.logo-svg svg {
+  width: 195px;
+}
+
 .nav-buttons>button>svg {
   width: 16px;
   height: 16px;
@@ -317,6 +321,10 @@ button {
   color: #333;
   letter-spacing: 0.02em;
   font-size: 0.9375rem;
+}
+
+.logo-svg a:hover {
+  text-decoration: underline;
 }
 
 .author>div>p>a:hover {
@@ -667,14 +675,6 @@ button {
   float: left;
   padding-bottom: 15px;
   padding-top: 15px;
-}
-
-.logo-svg a:hover {
-  text-decoration: underline;
-}
-
-.logo-svg svg {
-  width: 195px;
 }
 
 .logo-svg>div>div {
