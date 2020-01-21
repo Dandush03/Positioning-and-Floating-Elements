@@ -803,3 +803,39 @@ button {
   border-top-style: solid;
   border-top-color: #e2e2e2;
 }
+
+.btn-footer {
+  width: 95%;
+  margin: 0 auto;
+  float: left;
+  margin-bottom: 2rem;
+}
+
+.btn-footer ul {
+  margin: 0;
+  list-style-type: none;
+  color: #666;
+}
+
+.btn-footer li {
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.btn-footer a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-size-adjust: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  color: #666;
+  font-size: 11px;
+  padding: 10px auto;
+  text-decoration: none;
+}
+
+.btn-footer a:hover {
+  text-decoration: underline;
+}
