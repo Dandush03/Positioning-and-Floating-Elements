@@ -374,9 +374,15 @@ button {
 
 .aside-section {
   position: absolute;
-  right: 300px;
+  right: 5%;
   top: 2000px;
   width: 210px;
+}
+
+@media(max-width: 1270px) {
+  .aside-section {
+    display: none;
+  }
 }
 
 .aside-section h2 {
@@ -442,4 +448,120 @@ button {
 .art-pic {
   cursor: pointer;
   max-width: 100%;
+}
+
+.frst-btm-art {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  width: calc(100% - 40px);
+  max-width: 600px;
+  color: rgb(102, 102, 102);
+  margin: 0px auto 1em;
+}
+
+.frst-btm-art a {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  width: calc(100% - 40px);
+  max-width: 600px;
+  color: rgb(102, 102, 102);
+  margin: 0px auto 1em;
+}
+
+.frst-btm-art a:hover {
+  text-decoration: none;
+}
+
+.snd-btm-art {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  width: calc(100% - 40px);
+  max-width: 600px;
+  margin: 1.5rem auto 2rem;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  text-size-adjust: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.btm-btn-art {
+  text-size-adjust: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  width: 330px;
+}
+
+.btm-btn-art button {
+  background-color: rgb(86, 123, 149);
+  color: white;
+  display: block;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  line-height: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(50, 104, 145);
+  border-image: initial;
+  border-radius: 3px;
+  padding: 5px 0px;
+  transition: background-color 0.6s ease 0s;
+  width: 100%;
+}
+
+.lst-btm-art {
+  flex-shrink: 0;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 17px;
+  margin-bottom: 5px;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-size-adjust: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.lst-btm-art ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  flex-wrap: nowrap;
+  list-style: none;
+  padding: 0;
+}
+
+.lst-btm-art li {
+  color: #999;
+  display: inline;
+  margin-right: 16px;
+  padding: 10px 0;
+}
+
+.lst-btm-art svg {
+  background-color: #eee;
+  border: 1px #eee solid;
+  border-radius: 100%;
+  padding: 5px;
+  width: 15px;
+  height: 15px;
+}
+
+.lst-btm-art button {
+  background-color: transparent;
+  border: none;
 }
