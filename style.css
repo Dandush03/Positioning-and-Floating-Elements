@@ -11,10 +11,7 @@ body {
 }
 
 .top-container {
-  display: grid;
-  grid-template-columns: 33% 33% 33%;
-  height: 53px;
-  padding: 4px 15px 2px;
+  padding: 16px 15px 10px;
   border-bottom: 1px solid #a03f3f;
 }
 
@@ -28,8 +25,9 @@ button {
 }
 
 .nav-buttons {
-  display: inline-flex;
   align-items: center;
+  width: 41%;
+  float: left;
 }
 
 .nav-buttons>button {
@@ -38,6 +36,22 @@ button {
   padding: 8px 9px 9px;
   width: 34px;
   height: 33px;
+  float: left;
+}
+
+.nav-buttons>div {
+  float: left;
+  padding: 8px 0 9px;
+}
+
+.nav-buttons>div>a {
+  font-size: 14.25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  line-height: 19px;
+  text-decoration: none;
+  color: black;
 }
 
 .nav-buttons>button>svg {
@@ -68,25 +82,16 @@ button {
   color: rgb(51, 51, 51);
 }
 
-.nav-buttons>div>a {
-  font-size: 14.25px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.7px;
-  line-height: 19px;
-  text-decoration: none;
-  color: black;
-}
+
+
+
 
 .title {
   display: inherit;
+  float: left;
 }
 
-.title>div {
-  align-items: center;
-  text-align: center;
-  align-self: center;
-}
+.title>div {}
 
 .title>div>a>svg {
   width: 195px;
@@ -99,7 +104,6 @@ button {
 
 .ui>div {
   text-align: right;
-  align-self: center;
 }
 
 .ui>div>button {
@@ -174,12 +178,6 @@ button {
 .img-desc-p {
   color: #888 !important;
   font-size: 13px !important;
-}
-
-.content-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .p-container>p {
@@ -578,7 +576,8 @@ button {
 }
 
 
-.more-topics, .editors-picks {
+.more-topics,
+.editors-picks {
   display: flex;
   flex-wrap: wrap;
   width: 852px;
@@ -639,7 +638,8 @@ button {
   border-top: 1px solid black;
 }
 
-.cosmos-most-populars h2, .cosmos-most-populars h3 {
+.cosmos-most-populars h2,
+.cosmos-most-populars h3 {
   font-size: 16px;
 }
 
@@ -685,7 +685,7 @@ button {
   display: grid;
 }
 
-.logo-svg>div{
+.logo-svg>div {
   float: right;
 }
 
