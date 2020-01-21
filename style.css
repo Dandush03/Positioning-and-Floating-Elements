@@ -501,13 +501,13 @@ button {
   margin: 13.5px 0 13.5px 80px;
 }
 
-.logo-svg>div>div {
-  float: right;
-}
-
 .clmns-5>div {
   float: left;
   margin-left: 3.5rem;
+}
+
+.logo-svg>div>div {
+  float: right;
 }
 
 .aside .picks-img-container>div {
@@ -699,8 +699,8 @@ button {
   width: 150px;
 }
 
-.clmns-5>div>div>ul,
-.clmns-5>div>ul {
+.clmns-5>div>ul,
+.clmns-5>div>div>ul {
   list-style: none;
   margin: 0;
   padding: 0;
