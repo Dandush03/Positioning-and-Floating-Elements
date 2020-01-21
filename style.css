@@ -501,6 +501,15 @@ button {
   margin: 13.5px 0 13.5px 80px;
 }
 
+.logo-svg>div>div {
+  float: right;
+}
+
+.clmns-5>div {
+  float: left;
+  margin-left: 3.5rem;
+}
+
 .aside .picks-img-container>div {
   display: block;
   width: 75px;
@@ -675,15 +684,6 @@ button {
   float: left;
   padding-bottom: 15px;
   padding-top: 15px;
-}
-
-.logo-svg>div>div {
-  float: right;
-}
-
-.clmns-5>div {
-  float: left;
-  margin-left: 3.5rem;
 }
 
 .clmns-5>div>header,
