@@ -105,6 +105,14 @@ button {
   font-size: 0.9375rem;
 }
 
+.clmns-5>div>ul>li>a.bgr-txt-dec {
+  font-size: 16px;
+  font-weight: 700;
+  height: 25px;
+  line-height: 15px;
+  width: 170px;
+}
+
 .clmns-5>div>div>ul>li>a {
   font-size: 14px;
 }
@@ -714,14 +722,6 @@ button {
   list-style: none;
   margin: 0;
   padding: 0;
-}
-
-.clmns-5>div>ul>li>a.bgr-txt-dec {
-  font-size: 16px;
-  font-weight: 700;
-  height: 25px;
-  line-height: 15px;
-  width: 170px;
 }
 
 .clmns-5>div>ul>li>a,
