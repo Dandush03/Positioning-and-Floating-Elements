@@ -101,6 +101,20 @@ button {
   padding: 8px 0 9px;
 }
 
+.lst-btm-art svg {
+  background-color: #eee;
+  border: 1px #eee solid;
+  border-radius: 100%;
+  padding: 5px;
+  width: 15px;
+  height: 15px;
+}
+
+.lst-btm-art button {
+  background-color: transparent;
+  border: none;
+}
+
 .nav-buttons>button>svg {
   width: 16px;
   height: 16px;
@@ -123,6 +137,34 @@ button {
   font-size: 0.625rem;
   margin-top: 3px;
   min-height: 12px;
+}
+
+.author>div>p>a {
+  color: #333;
+  text-decoration-color: #ccc;
+  font-size: 0.9375rem;
+}
+
+.btm-btn-art button {
+  background-color: rgb(86, 123, 149);
+  color: white;
+  display: block;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  line-height: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(50, 104, 145);
+  border-image: initial;
+  border-radius: 3px;
+  padding: 5px 0;
+  transition: background-color 0.6s ease 0s;
 }
 
 .ui {
@@ -255,11 +297,6 @@ button {
   font-size: 0.9375rem;
 }
 
-.author>div>p>a {
-  color: #333;
-  text-decoration-color: #ccc;
-  font-size: 0.9375rem;
-}
 
 .author>div>p>a:hover {
   text-decoration: none;
@@ -276,6 +313,13 @@ button {
   margin: 0;
   list-style: none;
   padding: 0;
+}
+
+.lst-btm-art li {
+  color: #999;
+  margin-right: 16px;
+  padding: 10px 0;
+  float: left;
 }
 
 .author-social-network>ul>li {
@@ -490,28 +534,6 @@ button {
   float: left;
 }
 
-.btm-btn-art button {
-  background-color: rgb(86, 123, 149);
-  color: white;
-  display: block;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  font-size: 0.8125rem;
-  font-weight: 600;
-  letter-spacing: 0.05em;
-  line-height: 1.5rem;
-  margin-left: auto;
-  margin-right: auto;
-  text-transform: uppercase;
-  width: 100%;
-  border-width: 1px;
-  border-style: solid;
-  border-color: rgb(50, 104, 145);
-  border-image: initial;
-  border-radius: 3px;
-  padding: 5px 0;
-  transition: background-color 0.6s ease 0s;
-}
-
 .lst-btm-art {
   float: right;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -528,27 +550,6 @@ button {
   margin: 0;
   list-style: none;
   padding: 0;
-}
-
-.lst-btm-art li {
-  color: #999;
-  margin-right: 16px;
-  padding: 10px 0;
-  float: left;
-}
-
-.lst-btm-art svg {
-  background-color: #eee;
-  border: 1px #eee solid;
-  border-radius: 100%;
-  padding: 5px;
-  width: 15px;
-  height: 15px;
-}
-
-.lst-btm-art button {
-  background-color: transparent;
-  border: none;
 }
 
 .cosmos-section {
