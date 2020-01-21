@@ -45,6 +45,30 @@ button {
   height: 16px;
 }
 
+.more-art p,
+.more-art a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  text-size-adjust: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  color: #333;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.more-art a {
+  color: rgb(50, 104, 145) !important;
+  text-decoration: none;
+}
+
+.aside-section a {
+  text-decoration: none;
+  color: rgb(51, 51, 51);
+}
+
 .nav-buttons>div>a {
   font-size: 14.25px;
   font-weight: 700;
@@ -131,13 +155,15 @@ button {
   width: 100%;
 }
 
-.img-desc, .vid-desc {
+.img-desc,
+.vid-desc {
   max-width: 100%;
   width: 900px;
   text-align: left;
 }
 
-.img-desc>figcaption>span,  .vid-desc>figcaption>span{
+.img-desc>figcaption>span,
+.vid-desc>figcaption>span {
   margin-right: 7px;
   color: #666;
   word-wrap: break-word;
@@ -151,7 +177,7 @@ button {
   font-size: 13px !important;
 }
 
-.content-section{
+.content-section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -178,7 +204,7 @@ button {
   color: #326891;
 }
 
-.author{
+.author {
   margin: 0 auto;
   width: 600px;
   max-width: 600px;
@@ -190,10 +216,10 @@ button {
   /* change */
   margin-bottom: 20px;
   color: #121212;
-  
+
 }
 
-.article-section{
+.article-section {
   width: 600px;
   max-width: 600px;
   margin: 0 auto;
@@ -344,25 +370,6 @@ button {
   text-align: center;
 }
 
-.more-art p,
-.more-art a {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  text-size-adjust: 100%;
-  font: inherit;
-  vertical-align: baseline;
-  color: #333;
-  font-size: 15px;
-  font-weight: 700;
-}
-
-.more-art a {
-  color: rgb(50, 104, 145) !important;
-  text-decoration: none;
-}
-
 .small-line {
   width: 72px;
   border-bottom: 1px solid rgb(204, 204, 204);
@@ -397,15 +404,10 @@ button {
   margin-bottom: 15px;
 }
 
-.aside-section a {
-  text-decoration: none;
-  color: rgb(51, 51, 51);
-}
-
 .aside-section h3 {
   font-size: 14px;
   font-weight: 500;
-  font-family:nyt-cheltenham-small, georgia, "times new roman";
+  font-family: nyt-cheltenham-small, georgia, "times new roman";
   margin: 13.5px 0px 13.5px 10px;
 }
 
