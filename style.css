@@ -105,6 +105,11 @@ button {
   font-size: 0.9375rem;
 }
 
+.clmns-5>div>div>ul>li>a {
+  font-size: 14px;
+}
+
+
 .frst-btm-art a:hover {
   text-decoration: none;
 }
@@ -714,12 +719,8 @@ button {
   width: 170px;
 }
 
+.clmns-5>div>ul>li>a,
 .clmns-5>div>div>ul>li>a {
-  font-size: 14px;
-}
-
-.clmns-5>div>div>ul>li>a,
-.clmns-5>div>ul>li>a {
   color: #000;
   display: inline-block;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
