@@ -34,12 +34,22 @@ button {
   margin: 0 auto 1em;
 }
 
-.frst-btm-art a:hover {
+.more-art a {
+  color: rgb(50, 104, 145) !important;
   text-decoration: none;
 }
 
-.more-art a {
-  color: rgb(50, 104, 145) !important;
+.nav-buttons>div>a {
+  font-size: 14.25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  line-height: 19px;
+  text-decoration: none;
+  color: black;
+}
+
+.frst-btm-art a:hover {
   text-decoration: none;
 }
 
@@ -74,16 +84,6 @@ button {
 .nav-buttons>div {
   float: left;
   padding: 8px 0 9px;
-}
-
-.nav-buttons>div>a {
-  font-size: 14.25px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.7px;
-  line-height: 19px;
-  text-decoration: none;
-  color: black;
 }
 
 .nav-buttons>button>svg {
