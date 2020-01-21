@@ -82,10 +82,6 @@ button {
   color: rgb(51, 51, 51);
 }
 
-
-
-
-
 .title {
   display: inherit;
   float: left;
@@ -208,7 +204,6 @@ button {
 
 .author,
 .article-body {
-  /* change */
   margin-bottom: 20px;
   color: #121212;
 }
@@ -248,35 +243,23 @@ button {
 
 .author>ul,
 .author-social-network>ul {
-  /* display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: nowrap; */
   float: right;
   width: 100%;
   margin: 0;
-
   list-style: none;
   padding: 0;
 }
 
-/* font-size: 0.8125rem;
-    line-height: 1rem;
-    margin-bottom: 0;
-    margin-top: 0;
-} */
-
 .author-social-network>ul>li {
   color: #999;
-  /* display: inline; */
-  /* float: right; */
   margin-right: 16px;
   padding: 10px 0;
   list-style: none;
   float: left;
 }
 
-.author-social-network>ul:first-child {
+.li-mrgn-added{
+  margin: 15px 0;
   float: left;
 }
 
@@ -310,8 +293,6 @@ button {
   bottom: 0.05rem;
   color: rgb(102, 102, 102);
   cursor: pointer;
-  display: inline-flex;
-  flex-direction: column;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 0.75rem;
   font-weight: 500;
@@ -330,11 +311,6 @@ button {
 }
 
 .comments-icon {
-  -webkit-box-align: center;
-  align-items: center;
-  display: flex;
-  -webkit-box-pack: center;
-  justify-content: center;
   min-width: 26px;
   min-height: 14px;
   position: relative;
@@ -360,7 +336,7 @@ button {
   border-width: 6px 0 0 8px;
 }
 
-.comments-icon::after {
+.logo-svg:after {
   bottom: -5px;
   content: "";
   display: block;
@@ -408,6 +384,7 @@ button {
 
 .aside-section div {
   height: 78px;
+  float: left;
 }
 
 .aside-section>div>article {
@@ -420,12 +397,7 @@ button {
   font-size: 14px;
   font-weight: 500;
   font-family: nyt-cheltenham-small, georgia, "times new roman", times, serif;
-  margin: 13.5px 0 13.5px 10px;
-}
-
-.picks-img-container {
-  display: flex;
-  align-items: center;
+  margin: 13.5px 0 13.5px 80px;
 }
 
 .aside .picks-img-container>div {
@@ -485,14 +457,9 @@ button {
 }
 
 .snd-btm-art {
-  display: flex;
-  -webkit-box-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  align-items: center;
   width: calc(100% - 40px);
   max-width: 600px;
-  margin: 1.5rem auto 2rem;
+  margin: 1.5rem auto 5rem;
   padding: 0;
   border: 0;
   font-size: 100%;
@@ -506,6 +473,7 @@ button {
   font: inherit;
   vertical-align: baseline;
   width: 330px;
+  float: left;
 }
 
 .btm-btn-art button {
@@ -532,11 +500,10 @@ button {
 }
 
 .lst-btm-art {
-  flex-shrink: 0;
+  float: right;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 17px;
   margin-bottom: 5px;
-  display: flex;
   margin: 0;
   padding: 0;
   border: 0;
@@ -546,20 +513,16 @@ button {
 }
 
 .lst-btm-art ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   margin: 0;
-  flex-wrap: nowrap;
   list-style: none;
   padding: 0;
 }
 
 .lst-btm-art li {
   color: #999;
-  display: inline;
   margin-right: 16px;
   padding: 10px 0;
+  float: left;
 }
 
 .lst-btm-art svg {
@@ -577,8 +540,6 @@ button {
 }
 
 .cosmos-section {
-  /* display: flex;
-  justify-content: center; */
   width: 1200px;
   margin: 0 auto;
 }
@@ -671,9 +632,13 @@ button {
   font-weight: 500;
 }
 
-.ftr-nav {
+.ftr-main-div{
   width: 1200px;
   margin: 0 auto;
+}
+
+.ftr-nav {
+  float: left;
 }
 
 .ftr-nav::before {
@@ -690,8 +655,9 @@ button {
   height: 44px;
   align-self: center;
   align-content: center;
-  display: grid;
+  float: left;
   padding-bottom: 15px;
+  padding-top: 15px
 }
 
 .logo-svg a {
