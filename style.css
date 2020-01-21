@@ -621,3 +621,21 @@ button {
   line-height: 1.25rem;
   letter-spacing: 0.3px;
 }
+
+
+
+
+
+
+
+
+
+.logo-svg {
+  width: 195px;
+  height: 26.48px;
+}
+
+.clmns-5{
+  display: grid;
+grid-template-columns: 1fr;
+}
