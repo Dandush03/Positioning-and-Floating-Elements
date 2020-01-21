@@ -91,8 +91,6 @@ button {
   float: left;
 }
 
-.title>div {}
-
 .title>div>a>svg {
   width: 195px;
   height: 26.48px;
@@ -565,29 +563,33 @@ button {
 }
 
 .cosmos-section {
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .cosmos-gallery {
-  display: flex;
   float: left;
-  flex-direction: column;
+  width: 50%;
 }
-
 
 .more-topics,
 .editors-picks {
-  display: flex;
-  flex-wrap: wrap;
+  float: left;
   width: 852px;
-  justify-content: space-between;
   border-bottom: rgb(51, 51, 51);
+}
+
+.second-line {
+  float: right;
 }
 
 .article-item {
   width: 32%;
   padding-bottom: 20px;
+  float: left;
+  margin: 4px;
 }
 
 .article-img figure {
@@ -636,6 +638,7 @@ button {
   width: 320px;
   margin-left: 30px;
   border-top: 1px solid black;
+  float: right;
 }
 
 .cosmos-most-populars h2,
