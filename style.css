@@ -336,7 +336,7 @@ button {
   border-width: 6px 0 0 8px;
 }
 
-.logo-svg:after {
+.logo-svg::after {
   bottom: -5px;
   content: "";
   display: block;
@@ -496,7 +496,6 @@ button {
   border-radius: 3px;
   padding: 5px 0;
   transition: background-color 0.6s ease 0s;
-  width: 100%;
 }
 
 .lst-btm-art {
@@ -662,7 +661,7 @@ button {
 
 .logo-svg a {
   color: #567b95;
-  font-family: nyt-franklin;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 11px;
   font-style: normal;
   font-weight: 400;
@@ -693,7 +692,7 @@ button {
   color: #333;
   font-size: 13px;
   font-weight: 700;
-  font-family: nyt-franklin;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
   height: 25px;
   line-height: 15px;
   margin: 0;
@@ -724,7 +723,7 @@ button {
 .clmns-5>div>ul>li>a {
   color: #000;
   display: inline-block;
-  font-family: nyt-franklin;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: capitalize;
@@ -796,7 +795,6 @@ button {
 
 .btn-footer a {
   margin: 0;
-  padding: 0;
   border: 0;
   text-size-adjust: 100%;
   font: inherit;
