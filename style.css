@@ -113,6 +113,20 @@ button {
   width: 170px;
 }
 
+.clmns-5>div>ul>li>a,
+.clmns-5>div>div>ul>li>a {
+  color: #000;
+  display: inline-block;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  width: 150px;
+  font-weight: 500;
+  height: 23px;
+  line-height: 16px;
+}
+
 .clmns-5>div>div>ul>li>a {
   font-size: 14px;
 }
@@ -722,20 +736,6 @@ button {
   list-style: none;
   margin: 0;
   padding: 0;
-}
-
-.clmns-5>div>ul>li>a,
-.clmns-5>div>div>ul>li>a {
-  color: #000;
-  display: inline-block;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  width: 150px;
-  font-weight: 500;
-  height: 23px;
-  line-height: 16px;
 }
 
 .clmns-5>div>ul>li>a:hover,
