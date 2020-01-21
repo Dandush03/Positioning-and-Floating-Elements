@@ -566,16 +566,24 @@ button {
   border: none;
 }
 
+.cosmos-section {
+  display: flex;
+  justify-content: center;
+}
+
 .cosmos-gallery {
   display: flex;
+  float: left;
   flex-direction: column;
 }
 
-.more-topics {
+
+.more-topics, .editors-picks {
   display: flex;
   flex-wrap: wrap;
   width: 852px;
   justify-content: space-between;
+  border-bottom: rgb(51, 51, 51);
 }
 
 .article-item {
@@ -601,6 +609,8 @@ button {
   font-family: nyt-cheltenham-small, georgia, "times new roman";
   color: rgb(153, 153, 153);
   font-size: 0.625rem;
+  margin-top: 3px;
+  min-height: 12px;
 }
 
 .article-title a {
@@ -613,6 +623,7 @@ button {
   line-height: 22px;
   font-weight: 500;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .article-title time {
@@ -621,6 +632,34 @@ button {
   line-height: 1.25rem;
   letter-spacing: 0.3px;
 }
+
+.cosmos-most-populars {
+  width: 320px;
+  margin-left: 30px;
+  border-top: 1px solid black;
+}
+
+.cosmos-most-populars h2, .cosmos-most-populars h3 {
+  font-size: 16px;
+}
+
+.cosmos-most-populars h3 {
+  padding: 15px 0;
+  border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.cosmos-most-populars a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+
+
+
+
+
+
 
 
 
