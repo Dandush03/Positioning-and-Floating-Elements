@@ -212,11 +212,10 @@ button {
 
 .fxd-btm button>svg {
   transform: rotate(270deg);
-  margin-top: 12px;
-  margin-bottom: 16px;
   width: 16px;
   height: 16px;
   float: right;
+  padding-left: 6px;
 }
 
 .title>div>a>svg {
@@ -267,11 +266,12 @@ button {
 
 .fxd-btm button {
   float: right;
-  width: 120px;
+  width: 140px;
   font-size: 16px;
   font-weight: bold;
   line-height: 17px;
   background-color: transparent;
+  margin-top: 14px;
 }
 
 .ui>div>button {
@@ -884,6 +884,3 @@ button {
   margin: 12px;
 }
 
-.fxd-btm button>p {
-  float: left;
-}
