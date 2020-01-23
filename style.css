@@ -216,7 +216,9 @@ button {
 }
 
 .img-caption {
+  padding: 0;
   padding-bottom: 4px;
+  margin: 0;
   font-family: nyt-cheltenham-small, georgia, "times new roman", times, serif;
   color: rgb(153, 153, 153);
   font-size: 0.625rem;
@@ -709,7 +711,7 @@ button {
   margin-bottom: 0;
 }
 
-.article-title p {
+.article-title span {
   color: rgb(153, 153, 153);
   font-size: 0.75rem;
   line-height: 1.25rem;
