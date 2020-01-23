@@ -361,6 +361,16 @@ button {
   font-family: nyt-imperial, georgia, 'times new roman', times, serif;
 }
 
+.theory-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.theory-subcontainer {
+  max-width: 945px;
+  width: 945px;
+}
+
 .author {
   margin: 0 auto;
   width: 600px;
