@@ -34,8 +34,8 @@ button {
   margin: 0 auto 1em;
 }
 
-.more-art a {
-  color: rgb(50, 104, 145) !important;
+.more-art .blue {
+  color: rgb(50, 104, 145);
   text-decoration: none;
 }
 
@@ -308,9 +308,9 @@ button {
   font-weight: 400;
 }
 
-.img-desc-p {
-  color: #888 !important;
-  font-size: 13px !important;
+.img-desc .img-desc-p {
+  color: #888;
+  font-size: 13px;
 }
 
 .p-container>p {
@@ -784,21 +784,13 @@ button {
   height: 320px;
 }
 
-.smll-fnt {
+.lst-clm .smll-fnt {
   color: #000;
   text-decoration: none;
   text-transform: capitalize;
-  font-size: 11px !important;
+  font-size: 11px;
   font-weight: 500;
   line-height: 21px;
-}
-
-.space {
-  margin-top: 2px !important;
-  padding-top: 10px !important;
-  border-top-width: 1px;
-  border-top-style: solid;
-  border-top-color: #e2e2e2;
 }
 
 .btn-footer {
