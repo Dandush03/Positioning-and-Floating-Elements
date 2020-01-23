@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-<head lang="en">
-  <meta charset="UFF-8">
+<head>
+  <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="shortcut icon"
     href="https://www.nytimes.com/vi-assets/static-assets/favicon-4bf96cb6a1093748bf5b3c429accb9b4.ico">
@@ -14,6 +14,7 @@
 <body>
   <header class="fixed-pos">
     <section class="top-container">
+      <h6>Top Container</h6>
       <div class="nav-buttons">
         <button class="menu-btn">
           <svg class="menu-svg">
@@ -70,12 +71,12 @@
           style="cursor: pointer;">
       </div>
       <div class="img-desc">
-        <figcaption>
+        <div>
           <span>Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how
             the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years
             ago.</span>
           <span class="img-desc-p">Rick Friedman for The New York Times</span>
-        </figcaption>
+        </div>
       </div>
     </section>
     <section class="content-section">
@@ -131,7 +132,7 @@
                     </div>
                   </li>
                   <li>
-                    <button type="button" role="switch" class="save-btn">
+                    <button class="save-btn">
                       <svg stroke="none" width="16px" height="25px" viewBox="0 0 16 25" class="css-ubw31m">
                         <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                           <g stroke="#666" fill="none">
@@ -190,8 +191,9 @@
               <div>
                 <div class="small-line"></div>
                 <p>Unlock more free articles.</p>
-                <a class="blue" href="https://myaccount.nytimes.com/auth/register?application=Free_Experience&amp;asset=InlineMessage&amp;campaignId=7QF7X&amp;client_id=freex&amp;redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fsubscription%2Fmultiproduct%2Flp8KQUS.html%3FEXIT_URI%3Dhttps%3A%2F%2Fwww.nytimes.com%2F2014%2F03%2F18%2Fscience%2Fspace%2Fdetection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html%26campaignID%3D7QF7X&amp;response_type=cookie"
-                  class="css-1h74mhy" rel="noreferrer noopener" role="button">Create an account or log in</a>
+                <a class="blue"
+                  href="https://myaccount.nytimes.com/auth/register?application=Free_Experience&amp;asset=InlineMessage&amp;campaignId=7QF7X&amp;client_id=freex&amp;redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fsubscription%2Fmultiproduct%2Flp8KQUS.html%3FEXIT_URI%3Dhttps%3A%2F%2Fwww.nytimes.com%2F2014%2F03%2F18%2Fscience%2Fspace%2Fdetection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html%26campaignID%3D7QF7X&amp;response_type=cookie"
+                  rel="noreferrer noopener" role="button">Create an account or log in</a>
               </div>
               <div class="small-line"></div>
             </div>
@@ -231,8 +233,8 @@
         </div>
         <div style="max-width:900px;margin:0 auto">
           <div style="max-width:945px; width:945px">
-            <iframe src="https://www.nytimes.com/interactive/2020/admin/100000002772592.embedded.html?" frameborder="0"
-              scrolling="no" width="100%" height="750"></iframe>
+            <iframe class="iframe-1" src="https://www.nytimes.com/interactive/2020/admin/100000002772592.embedded.html?"
+              scrolling="no"></iframe>
           </div>
         </div>
         <div class="article-section">
@@ -258,13 +260,12 @@
             </div>
           </div>
           <div class="video-section">
-            <iframe width="600" height="315" src="https://www.youtube.com/embed/ZlfIVEy_YOA" frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/ZlfIVEy_YOA"></iframe>
             <div class="vid-desc">
-              <figcaption>
+              <p>
                 <span>Stanford Professor Andrei Linde celebrates physics breakthrough</span>
                 <span class="vid-desc-p">Video by StanfordUniversity</span>
-              </figcaption>
+              </p>
             </div>
           </div>
           <div class="article-section">
@@ -321,10 +322,10 @@
               srcset="https://static01.nyt.com/images/2014/03/18/science/space/18cosmos-2/18cosmos-2-articleLarge.jpg?quality=90&amp;auto=webp 600w,https://static01.nyt.com/images/2014/03/18/science/space/18cosmos-2/18cosmos-2-jumbo.jpg?quality=90&amp;auto=webp 1024w,https://static01.nyt.com/images/2014/03/18/science/space/18cosmos-2/18cosmos-2-superJumbo.jpg?quality=90&amp;auto=webp 2048w"
               sizes="((min-width: 600px) and (max-width: 1004px)) 84vw, (min-width: 1005px) 60vw, 100vw" itemprop="url">
             <div class="img-desc">
-              <figcaption>
+              <p>
                 <span>The Bicep2 telescope, in the foreground, was used to detect the faint spiraling gravity patterns —
                   the signature of a universe being wrenched violently apart at its birth.</span>
-              </figcaption>
+              </p>
             </div>
           </div>
           <div class="article-section">
@@ -964,7 +965,7 @@
                     <meta itemprop="foundingDate" content="1851-09-18"><span itemprop="logo" itemscope=""
                       itemtype="https://schema.org/ImageObject">
                       <meta itemprop="url" content="https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png">
-                      </span>
+                    </span>
                     <meta itemprop="url" content="https://www.nytimes.com/">
                     <meta itemprop="masthead"
                       content="https://www.nytimes.com/interactive/2018/09/28/admin/the-new-york-times-masthead.html">
