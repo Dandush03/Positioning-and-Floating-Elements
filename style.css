@@ -830,3 +830,52 @@ button {
   float: left;
   margin-bottom: 2rem;
 }
+
+.fxd-btm {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  padding: 16px 15px 10px;
+  border-top: 1px solid #a03f3f;
+}
+
+.fxd-btm>div {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.fxd-btm>div>p {
+  text-align: center;
+  float: left;
+  width: 70%;
+  padding-left: 10%;
+  font-size: 20px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  margin: 12px;
+}
+
+.fxd-btm button {
+  float: right;
+  width: 120px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 17px;
+  background-color: transparent;
+}
+
+.fxd-btm button>p {
+  float: left;
+}
+
+.fxd-btm button>svg {
+  transform: rotate(270deg);
+  margin-top: 12px;
+  margin-bottom: 16px;
+  width: 16px;
+  height: 16px;
+  float: right;
+}
+
+
