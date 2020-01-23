@@ -709,11 +709,13 @@ button {
   margin-bottom: 0;
 }
 
-.article-title time {
+.article-title p {
   color: rgb(153, 153, 153);
   font-size: 0.75rem;
   line-height: 1.25rem;
   letter-spacing: 0.3px;
+  padding: 0;
+  margin: 0;
 }
 
 .cosmos-most-populars {
