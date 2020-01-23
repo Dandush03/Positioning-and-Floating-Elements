@@ -321,6 +321,15 @@ button {
   margin: 0;
 }
 
+.article-title span {
+  color: rgb(153, 153, 153);
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.3px;
+  padding: 0;
+  margin: 0;
+}
+
 .img-desc>p>span,
 .vid-desc>p>span {
   margin-right: 7px;
@@ -599,7 +608,7 @@ button {
   margin-top: 40px;
 }
 
-.video-section>iframe{
+.video-section>iframe {
   width: 600px;
   height: 315px;
   border: none;
@@ -709,15 +718,6 @@ button {
   font-weight: 500;
   margin-top: 0;
   margin-bottom: 0;
-}
-
-.article-title span {
-  color: rgb(153, 153, 153);
-  font-size: 0.75rem;
-  line-height: 1.25rem;
-  letter-spacing: 0.3px;
-  padding: 0;
-  margin: 0;
 }
 
 .cosmos-most-populars {
