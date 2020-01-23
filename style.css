@@ -210,6 +210,15 @@ button {
   float: left;
 }
 
+.fxd-btm button>svg {
+  transform: rotate(270deg);
+  margin-top: 12px;
+  margin-bottom: 16px;
+  width: 16px;
+  height: 16px;
+  float: right;
+}
+
 .title>div>a>svg {
   width: 195px;
   height: 26.48px;
@@ -254,6 +263,15 @@ button {
 
 .ui>div {
   text-align: right;
+}
+
+.fxd-btm button {
+  float: right;
+  width: 120px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 17px;
+  background-color: transparent;
 }
 
 .ui>div>button {
@@ -596,6 +614,11 @@ button {
   margin-left: 3.5rem;
 }
 
+.fxd-btm>div {
+  margin: 0 auto;
+  width: 1200px;
+}
+
 .logo-svg>div>div {
   float: right;
 }
@@ -851,11 +874,6 @@ button {
   border-top: 1px solid #a03f3f;
 }
 
-.fxd-btm>div {
-  margin: 0 auto;
-  width: 1200px;
-}
-
 .fxd-btm>div>p {
   text-align: center;
   float: left;
@@ -866,26 +884,6 @@ button {
   margin: 12px;
 }
 
-.fxd-btm button {
-  float: right;
-  width: 120px;
-  font-size: 16px;
-  font-weight: bold;
-  line-height: 17px;
-  background-color: transparent;
-}
-
 .fxd-btm button>p {
   float: left;
 }
-
-.fxd-btm button>svg {
-  transform: rotate(270deg);
-  margin-top: 12px;
-  margin-bottom: 16px;
-  width: 16px;
-  height: 16px;
-  float: right;
-}
-
-
